@@ -1,0 +1,48 @@
+name: Deploy to Streamlit Cloud
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run tests
+      run: |
+        python -c "
+        import streamlit as st
+        import pandas as pd
+        import plotly.express as px
+        print('All dependencies installed successfully')
+        "
+
+    - name: Check Streamlit app
+      run: |
+        python -c "
+        import ast
+        with open('streamlit_app.py', 'r') as f:
+            tree = ast.parse(f.read())
+        print('Streamlit app syntax is valid')
+        "
+
+    - name: Deploy to Streamlit (if secrets configured)
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        echo "Streamlit deployment would happen here with proper secrets"
+        echo "Configure STREAMLIT_EMAIL and STREAMLIT_PASSWORD secrets for automatic deployment"

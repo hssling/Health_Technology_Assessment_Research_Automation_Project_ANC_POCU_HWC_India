@@ -1,0 +1,20 @@
+{
+  "project": "hta_project_06_anc_pocus_hwc",
+  "timestamp": "2025-11-02T15:19:06",
+  "model_stdout": "Base: 120.0 66.0 6.960000000000001 330000.0\nIntervention: 120.0 102.0 5.52 192840.0\nICER per HRP detected: -3810.0\nICER per adverse outcome averted: -95249.99999999991\n",
+  "log": [
+    "=== Processing project: hta_project_06_anc_pocus_hwc ===",
+    "Protocol: loaded.",
+    "Search strings: loaded.",
+    "Literature search: starting...",
+    "Literature search: completed, extracted 6 data points.",
+    "Data processing: starting...",
+    "Data processing: completed, filled 6 rows.",
+    "R: executed.",
+    "R stderr:\n\u00e2\u201d\u20ac\u00e2\u201d\u20ac Attaching core tidyverse packages \u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac tidyverse 2.0.0 \u00e2\u201d\u20ac\u00e2\u201d\u20ac\n\u00e2\u0153\u201d dplyr     1.1.4     \u00e2\u0153\u201d readr     2.1.5\n\u00e2\u0153\u201d forcats   1.0.0     \u00e2\u0153\u201d stringr   1.5.2\n\u00e2\u0153\u201d ggplot2   4.0.0     \u00e2\u0153\u201d tibble    3.3.0\n\u00e2\u0153\u201d lubridate 1.9.4     \u00e2\u0153\u201d tidyr     1.3.1\n\u00e2\u0153\u201d purrr     1.1.0     \n\u00e2\u201d\u20ac\u00e2\u201d\u20ac Conflicts \u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac\u00e2\u201d\u20ac tidyverse_conflicts() \u00e2\u201d\u20ac\u00e2\u201d\u20ac\n\u00e2\u0153\u2013 dplyr::filter() masks stats::filter()\n\u00e2\u0153\u2013 dplyr::lag()    masks stats::lag()\n\u00e2\u201e\u00b9 Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n",
+    "Model: executed 04_anc_pocus_model.py",
+    "Model stdout:\nBase: 120.0 66.0 6.960000000000001 330000.0\nIntervention: 120.0 102.0 5.52 192840.0\nICER per HRP detected: -3810.0\nICER per adverse outcome averted: -95249.99999999991\n",
+    "Manuscript generation: starting...",
+    "Manuscript generation: completed."
+  ]
+}

@@ -1,0 +1,13 @@
+PubMed search:
+(("ultrasonography, prenatal"[Mesh] OR "prenatal ultrasound" OR "obstetric ultrasound" OR "antenatal ultrasound" OR "fetal ultrasound" OR "point-of-care ultrasound" OR PoCUS OR "handheld ultrasound")
+AND (antenatal OR pregnancy OR maternal OR obstetric OR prenatal)
+AND (India OR "low- and middle-income countries" OR LMIC OR "developing countries" OR "resource-limited settings")
+AND (cost OR "cost-effectiveness" OR "cost analysis" OR "economic evaluation" OR "health technology assessment" OR HTA OR "budget impact" OR "cost-benefit"))
+AND ("2000/01/01"[Date - Publication] : "3000"[Date - Publication])
+
+Grey literature:
+- MoHFW ANC / LaQshya guidelines
+- UNFPA handheld ultrasound pilots in India
+- WHO antenatal care guidelines
+- Indian Medical Association ultrasound protocols
+- State health department ANC programs
